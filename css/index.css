@@ -1,0 +1,59 @@
+::selection{background:#ccc8b8;color:#333;text-shadow:none}
+::-webkit-selection{background:#ccc8b8;color:#333;text-shadow:none}
+::-moz-selection{background:#ccc8b8;color:#333;text-shadow:none}
+
+#txt_reader{
+    width:850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#txt_reader .reader-page{
+    background-color: #FAF7ED;
+    box-shadow: -7px 0 7px -7px rgba(51,51,51,.07),7px 0 7px -7px rgba(51,51,51,.07),0 8px 8px -8px rgba(51,51,51,.07);
+}
+/**/
+.underline-container {
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    font-size: 0;
+    //z-index: 2;
+    //background-color:#00ff00;
+}
+
+.note-mark {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(about:blank);
+    opacity: .3;
+    filter: alpha(Opacity=30);
+}
+/**/
+.txt #txt-reader-block {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    cursor: auto;
+}
+#txt-reader-block {
+    position: relative;
+    top:0px;
+    width: 652px;
+    margin: 0 auto;
+    //padding-top: 50px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+
+.txt-reader-wrap {
+    position: relative;
+}
+.txt-reader-wrap p {
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 2em;
+}
